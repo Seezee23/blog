@@ -37,11 +37,11 @@ function App() {
           <NavBar />
           <Routes>
             <Route path="/travels" element={<TravelsPage />} />
-            <Route path="/chinas" element={<ChinaPage user={user} setUser={setUser} />} />
-            <Route path="/italys" element={<ItalyPage user={user} setUser={setUser} />} />
-            <Route path="/usas" element={<USAPage user={user} setUser={setUser} />}/>
-            <Route path="/canadas" element={<CanadaPage user={user} setUser={setUser} />} />
-            <Route path="/homes" element={<HomePage user={user} setUser={setUser} />} />
+            <Route path="/china" element={<ChinaPage user={user} setUser={setUser} />} />
+            <Route path="/italy" element={<ItalyPage user={user} setUser={setUser} />} />
+            <Route path="/usa" element={<USAPage user={user} setUser={setUser} />}/>
+            <Route path="/canada" element={<CanadaPage user={user} setUser={setUser} />} />
+            <Route path="/home" element={<HomePage user={user} setUser={setUser} />} />
 
           </Routes>
           <Footer />

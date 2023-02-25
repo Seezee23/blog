@@ -6,15 +6,15 @@ export default function NavBar() {
   }
   return (
     <nav>
-      <Link to="/Home">Home</Link>
+      <Link to="/home">Home</Link>
       &nbsp; | &nbsp;
-      <Link to="/USA">USA</Link>
+      <Link to="/usa">USA</Link>
       &nbsp; | &nbsp;
-      <Link to="/Italy">Italy</Link>
+      <Link to="/italy">Italy</Link>
       &nbsp; | &nbsp;
-      <Link to="/Canada">Canada</Link>
+      <Link to="/canada">Canada</Link>
       &nbsp; | &nbsp;
-      <Link to="/China">China</Link>
+      <Link to="/china">China</Link>
       <button className='logout' onClick={handleClick}>LogOut</button>
     </nav>
   );
