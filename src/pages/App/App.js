@@ -36,7 +36,7 @@ function App() {
         <>
           <NavBar />
           <Routes>
-            <Route path="/travels" element={<TravelsPage />} />
+            <Route path="/travels" element={<TravelsPage user={user} />} />
             <Route path="/china" element={<ChinaPage user={user} setUser={setUser} />} />
             <Route path="/italy" element={<ItalyPage user={user} setUser={setUser} />} />
             <Route path="/usa" element={<USAPage user={user} setUser={setUser} />}/>

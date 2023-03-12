@@ -16,6 +16,8 @@ export default function HomePage ({ travels }) {
                                       <h1>{travel.title}</h1>
                                       <img src={travel.image} alt='' />
                                       <p>{travel.attractions}</p>  
+                                      <button className='home' onClick={() => { window.travel.href = travel.url }}>VIEW HOME</button>
+
                                     </article>
                                   )
                                 })
